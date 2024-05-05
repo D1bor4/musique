@@ -17,6 +17,13 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+div.bien a {
+  text-decoration: none;
+}
+nav .bienv a:hover {
+  color:#808080;
+}
+
 
 nav a {
   color: #fff;
@@ -26,6 +33,9 @@ cursor:pointer;
 }
 nav a:hover{
   color:blue;
+}
+a p:hover{
+  color:black;
 }
 
 
