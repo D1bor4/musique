@@ -4,14 +4,21 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("background_image2.jpg") no-repeat center center fixed;
+  /*background: url("background_image2.jpg") no-repeat fixed;*/
+  background-size: cover; /* Pour couvrir toute la fenêtre du navigateur */
+  color:#fff
 }
+
 
 header {
   background-color: #333;
   color: #fff;
   padding: 20px;
 }
-
+ol li{
+  color:rgb(205, 205, 251);
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -35,13 +42,18 @@ nav a:hover{
   color:blue;
 }
 a p:hover{
-  color:black;
+  color:yellow;
+}
+a{
+  color: rgb(226, 162, 43);
 }
 
 
 main {
   padding: 20px;
 }
+
+
 
 footer {
   background-color: #333;
@@ -159,14 +171,35 @@ footer a:hover {
   margin-bottom: 10px;
 }
 
-.para1 {
+.para_utilite {
   margin-top: 10px;
 }
 
-.para1 p {
+.para_utilite p {
   margin-bottom: 10px;
 }
-
+h2{
+  color:rgb(255, 247, 0);
+}
+/* style pour la 3e page */
+h3{
+  color:rgb(255, 162, 0);
+}
+#exemple{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ /* text-align: center;*/
+}
+#exemple h2{
+  text-align: left;
+}
+li video {
+  margin-left: 250px;
+}
+li audio {
+  margin-left: 250px;
+}
 /* Ajout de styles pour les images */
 .crea,
 .detresse {
